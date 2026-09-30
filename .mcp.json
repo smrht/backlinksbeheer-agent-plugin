@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "backlinksbeheer": {
+      "type": "http",
+      "url": "https://backlinksbeheer.nl/mcp"
+    }
+  }
+}

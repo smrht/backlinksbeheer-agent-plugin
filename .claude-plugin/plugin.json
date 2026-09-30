@@ -1,0 +1,15 @@
+{
+  "name": "backlinksbeheer",
+  "version": "1.0.0",
+  "description": "Read your existing Backlinksbeheer domains and backlinks, inspect stored check results, find problem links and summarize a domain. Results include the available measurement dates. This plugin reads only your own account; it does not run a new crawl, send partner messages, buy backlinks, modify records or process payments. An existing Backlinksbeheer account is required.",
+  "author": {
+    "name": "Samautomation",
+    "url": "https://backlinksbeheer.nl/",
+    "email": "info@backlinksbeheer.nl"
+  },
+  "homepage": "https://backlinksbeheer.nl/plugin/",
+  "repository": "https://github.com/smrht/backlinksbeheer-agent-plugin",
+  "license": "MIT",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

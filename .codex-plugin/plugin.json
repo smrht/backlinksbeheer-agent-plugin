@@ -1,0 +1,37 @@
+{
+  "name": "backlinksbeheer",
+  "version": "1.0.0",
+  "description": "Read your existing Backlinksbeheer domains and backlinks, inspect stored check results, find problem links and summarize a domain. Results include the available measurement dates. This plugin reads only your own account; it does not run a new crawl, send partner messages, buy backlinks, modify records or process payments. An existing Backlinksbeheer account is required.",
+  "author": {
+    "name": "Samautomation",
+    "url": "https://backlinksbeheer.nl/",
+    "email": "info@backlinksbeheer.nl"
+  },
+  "homepage": "https://backlinksbeheer.nl/plugin/",
+  "repository": "https://github.com/smrht/backlinksbeheer-agent-plugin",
+  "license": "MIT",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Backlinksbeheer",
+    "shortDescription": "Check your existing backlinks",
+    "longDescription": "Read your existing Backlinksbeheer domains and backlinks, inspect stored check results, find problem links and summarize a domain. Results include the available measurement dates. This plugin reads only your own account; it does not run a new crawl, send partner messages, buy backlinks, modify records or process payments. An existing Backlinksbeheer account is required.",
+    "developerName": "Samautomation",
+    "category": "Business & Operations",
+    "capabilities": [
+      "Read"
+    ],
+    "websiteURL": "https://backlinksbeheer.nl/plugin/",
+    "supportURL": "https://backlinksbeheer.nl/contact/",
+    "privacyPolicyURL": "https://backlinksbeheer.nl/plugin/privacy/",
+    "termsOfServiceURL": "https://backlinksbeheer.nl/plugin/terms/",
+    "defaultPrompt": [
+      "Welke backlinks hadden bij de laatste controle een probleem?",
+      "Toon mijn domeinen en de laatste backlinkmetingen.",
+      "Maak een kort rapport van mijn backlinks per domein."
+    ],
+    "brandColor": "#111111",
+    "logo": "./assets/logo.png",
+    "composerIcon": "./assets/logo.png"
+  }
+}
